@@ -84,7 +84,7 @@
                 clearTimeout(timeout);
             }
 
-            if (bool) {
+            if (mobile) {
                 // Mobile Support
                 $this.on('touchstart', mousedown_callback);
                 $this.on('touchend', mouseup_callback);
